@@ -1,0 +1,38 @@
+body{
+    background-color:lightgray;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;    
+}
+.plus{
+    grid-row: span 2;  
+    /* font-size: 500px !important;   */
+}
+
+
+.btn{
+    
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.input{
+    grid-column: span 4;
+    font-size: 50px;
+    border-radius: 30px;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
