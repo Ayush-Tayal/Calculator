@@ -18,8 +18,8 @@ buttons.forEach(fun=>{
 clear.addEventListener("click", ()=>input.value="");
 
 equal.addEventListener("click", ()=>{
-    const ans = input.value.replace("^", "**");
-    input.value =  input.value + " = " + eval(ans);     
+    const ans = input.value.replace(/\^/g, "**");
+    input.value =  input.value + "=" + eval(ans);     
 })
 
 backspace.addEventListener("click", ()=>{
