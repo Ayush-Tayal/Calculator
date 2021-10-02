@@ -1,24 +1,27 @@
 body{
     background-color:lightgray;
-    background-image: url(https://i.pinimg.com/originals/ff/73/a8/ff73a8bf1b107c77bc48f82c35700251.jpg);
-    
+    background-image: url(https://i.pinimg.com/originals/ff/73/a8/ff73a8bf1b107c77bc48f82c35700251.jpg); 
 }
+hr{
+    color:antiquewhite ;
+    font-weight: bolder;
 
+}
 main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;    
-}
-.plus{
-    grid-row: span 2;  
-    /* font-size: 500px !important;   */
+    gap: 2rem;    
+    margin-top: 1rem ;
 }
 
+.plus{
+    grid-row: span 2; 
+}
 
 .btn{
-    
     font-size: 30px;
     border-radius: 20px;
+    font-weight: bolder;
 }
 
 .btn:hover{
@@ -29,16 +32,18 @@ main{
     grid-column: span 4;
     font-size: 30px;
     border-radius: 20px;
+    font-weight:bolder;
+    margin:auto;
+    padding: 10px;
 
 }
 
 h1{
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    font-size: 40px;
+    margin-top: 5%;
+    font-size: 3.5rem;
     color: whitesmoke;
     font-family: cursive;
-    font-weight:bolder
+    font-weight:bolder;
 }
 
