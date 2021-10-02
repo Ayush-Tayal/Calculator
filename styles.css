@@ -1,11 +1,13 @@
 body{
     background-color:lightgray;
+    background-image: url(https://i.pinimg.com/originals/ff/73/a8/ff73a8bf1b107c77bc48f82c35700251.jpg);
+    
 }
 
 main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;    
+    gap: 25px;    
 }
 .plus{
     grid-row: span 2;  
@@ -35,4 +37,8 @@ h1{
     margin-top: 35px;
     margin-bottom: 20px;
     font-size: 40px;
+    color: whitesmoke;
+    font-family: cursive;
+    font-weight:bolder
 }
+
