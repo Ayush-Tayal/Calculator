@@ -19,7 +19,7 @@ clear.addEventListener("click", ()=>input.value="");
 
 equal.addEventListener("click", ()=>{
     const ans = input.value.replace(/\^/g, "**");
-    input.value =  input.value + "=" + eval(ans);     
+    input.value = eval(ans);     
 })
 
 backspace.addEventListener("click", ()=>{
